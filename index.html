@@ -157,9 +157,10 @@
                 </div>
               </div>
               <div class="col-md-4">
+                <!-- Card con modal -->
                 <div class="card mb-4">
                   <img
-                    src="assets/img/imagen03.jpg"
+                    src="assets/img/imagen01.jpg"
                     class="card-img-top"
                     alt="..."
                   />
@@ -169,9 +170,89 @@
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <!-- Button trigger modal -->
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-toggle="modal"
+                      data-target="#modal-card-1"
+                    >
+                      Ver detalle
+                    </button>
+
+                    <!-- Modal -->
+                    <div
+                      class="modal fade"
+                      id="modal-card-1"
+                      tabindex="-1"
+                      aria-labelledby="modal-card-1-label"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="modal-card-1-label">
+                              Detalle Card 1
+                            </h5>
+                            <button
+                              type="button"
+                              class="close"
+                              data-dismiss="modal"
+                              aria-label="Close"
+                            >
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <img
+                                  src="assets/img/imagen01.jpg"
+                                  class="img-fluid"
+                                  alt="Detalle card 1"
+                                />
+                              </div>
+                              <div class="col-md-8">
+                                <p>
+                                  <strong>La ciudad de París</strong>, dentro de sus estrechos
+                                  límites administrativos, tiene una población
+                                  de 2 273 305 habitantes en 2015.2 Sin embargo,
+                                  en el siglo xx, el área metropolitana de París
+                                  se expandió más allá de los límites del
+                                  municipio de París, y es hoy en día, con una
+                                  población de 12 405 426 habitantes en 2013, la
+                                  segunda área metropolitana del continente
+                                  europeo (después de Londres) y la 28ª del
+                                  mundo.4 La región de París es junto con la de
+                                  Londres, uno de los núcleos económicos más
+                                  importantes de Europa.6 Con 607 000 millones
+                                  de euros (845 000 millones de dólares),
+                                  produjo más de una cuarta parte del producto
+                                  interior bruto (PIB) de Francia en 2011.7 La
+                                  Défense es el principal barrio de negocios de
+                                  Europa,8 alberga la sede social de casi la
+                                  mitad de las grandes empresas francesas, así
+                                  como la sede de veinte de las cien más grandes
+                                  del mundo.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-primary"
+                              data-dismiss="modal"
+                            >
+                              Cerrar
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
+                <!-- Fin card con modal -->
               </div>
               <div class="col-md-4">
                 <div class="card mb-4">
