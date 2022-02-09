@@ -24,3 +24,7 @@
 p {
   font-family: "Roboto", sans-serif;
 }
+
+.custom-icon:hover {
+  color: aqua;
+}

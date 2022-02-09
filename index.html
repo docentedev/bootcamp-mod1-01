@@ -330,14 +330,61 @@
                </div>
             </div>
          </div>
-         <section id="sec-contacto">
-            <h2 class="text-rowdies">Contacto</h2>
+         <section id="sec-contacto" class="bg-success text-white py-4">
+           <div class="container">
+             <div class="row">
+               <div class="col">
+                <h2 class="text-rowdies text-center">Contacto</h2>
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Correo electronico</label>
+                    <input placeholder="Ingrse su email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text">Ingrese un correo para que lo contactemos luego</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Mensaje</label>
+                    <textarea placeholder="Escriba su comentario.." class="form-control" id="exampleInputPassword1"></textarea>
+                  </div>
+                  <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+                  <div class="text-right">
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                  </div>
+                </form>                
+               </div>
+             </div>
+           </div>
          </section>
-         <section id="sec-informacion">
-            <h2 class="text-rowdies">Información</h2>
+         <section id="sec-informacion" class="py-4 d-none d-sm-block">
+           <div class="container">
+             <div class="row">
+               <div class="col-12">
+                 <h2 class="text-rowdies">Información</h2>
+                 <h3>Etimología</h3>
+                 <hr />
+               </div>
+               <div class="col-md-3">
+                Su nombre proviene del pueblo galo de los parisios (en latín, Parisii). La palabra «París» deriva del latín Civitas Parisiorium (‘la ciudad de los parisi’), designación que predominó sobre Lutecia (cuyo nombre completo era Lutetia Parisii). No se conoce con certeza el origen del nombre de los parisii.
+              </div>
+              <div class="col-md-3">
+                París tiene muchos sobrenombres, el más famoso de los cuales es el de «Ciudad de la Luz» (la Ville lumière), nombre que remite a su fama como centro de las artes y la educación, pero también (y tal vez por lo mismo) a su adopción temprana de la iluminación urbana.
+              </div>
+              <div class="col-md-3">
+                El gentilicio de los habitantes de París es «parisino» que en francés se dice parisien [paʁizjɛ̃]. A veces, los franceses que viven fuera de París se refieren a sus habitantes como parigots [paʁigo], pero el término, antaño despectivo, ha sido adoptado por los parisinos y ha perdido esa connotación.
+              </div>
+              <div class="col-md-3">
+                Jacques-Antoine Dulaure dio una explicación posible al origen del nombre de los parisii, asociándolo a la diosa egipcia Isis, a causa del descubrimiento de una estatua de la diosa encontrada en la abadía de Saint-Germain-des-Prés.10​ Esta estatua era delgada, alta, erguida, negra, casi desnuda,
+              </div> 
+              <div class="col-md-12 mt-4">
+                vestida con ropa adornada en pliegues alrededor de sus extremidades y se encontraba situada en la pared del lado norte, donde se encontraba el crucifijo de la iglesia: se la llamaba el ídolo de Saint-Germain-des-Prés.11​
+              </div>
+              </div>
+           </div>
          </section>
       </main>
-      <footer class="bg-dark py-4 text-warning text-center">
+      <footer class="bg-dark py-4 text-warning text-center custom-footer">
          <div class="container">
             <div class="row">
                <div class="col">
@@ -345,15 +392,15 @@
                </div>
             </div>
             <div class="col-12">
-               <a href="https://www.facebook.com/" class="mr-3">
-               <i class="fab fa-facebook-square fa-2x text-white"></i>
-               </a>
-               <a href="https://www.instagram.com/">
-               <i class="fab fa-instagram fa-2x text-white"></i>
-               </a>
-               <a href="https://twitter.com/" class="ml-3">
-               <i class="fab fa-twitter-square fa-2x text-white"></i>
-               </a>
+               <a target="self" href="https://www.facebook.com/" class="mr-3 text-white">
+                 <i class="fab fa-facebook-square fa-2x custom-icon"></i>
+                </a>
+               <a target="self" href="https://www.instagram.com/" class="text-white">
+                 <i class="fab fa-instagram fa-2x custom-icon"></i>
+                </a>
+               <a target="self" href="https://twitter.com/" class="ml-3 text-white">
+                 <i class="fab fa-twitter-square fa-2x custom-icon"></i>
+                </a>
             </div>
          </div>
          </div>
