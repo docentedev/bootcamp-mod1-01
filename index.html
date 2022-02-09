@@ -1,341 +1,370 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Desafio Ejemplo</title>
-    <!-- Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!--- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="fixed-top bg-navbar">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-              <a class="navbar-brand" href="#">
-                <img
-                  src="assets/img/logo.png"
-                  width="30"
-                  height="30"
-                  class="d-inline-block align-top"
-                  alt="Logo Claudio.dcv"
-                />
-                Claudio.dcv
-              </a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#carousel-inicial">
-                      Inicio <span class="sr-only">(current)</span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#sec-trabajos">Trabajos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#sec-contacto">Contacto</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#sec-informacion">Información</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- End Header -->
-    <!-- Carousel -->
-    <div id="carousel-inicial" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li
-          data-target="#carousel-inicial"
-          data-slide-to="0"
-          class="active"
-        ></li>
-        <li data-target="#carousel-inicial" data-slide-to="1"></li>
-        <li data-target="#carousel-inicial" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="assets/img/imagen01.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/imagen02.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/imagen03.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-target="#carousel-inicial"
-        data-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-target="#carousel-inicial"
-        data-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </button>
-    </div>
-    <!-- End Carousel -->
-    <main class="container">
-      <div class="row">
-        <div class="col">
-          <section id="sec-trabajos" class="py-4">
-            <h2 class="text-center mb-4 text-rowdies">Trabajos</h2>
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Desafio Ejemplo</title>
+      <!-- Google Fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400&display=swap"
+         rel="stylesheet"
+         />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+         rel="stylesheet"
+         />
+      <!--- Bootstrap CSS -->
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="assets/css/style.css" />
+   </head>
+   <body>
+      <!-- Header -->
+      <header class="fixed-top bg-navbar">
+         <div class="container">
             <div class="row">
-              <div class="col-md-4">
-                <div class="card mb-4">
-                  <img
-                    src="assets/img/imagen03.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card mb-4">
-                  <img
-                    src="assets/img/imagen03.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <!-- Card con modal -->
-                <div class="card mb-4">
-                  <img
-                    src="assets/img/imagen01.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <!-- Button trigger modal -->
-                    <button
-                      type="button"
-                      class="btn btn-primary"
-                      data-toggle="modal"
-                      data-target="#modal-card-1"
-                    >
-                      Ver detalle
-                    </button>
-
-                    <!-- Modal -->
-                    <div
-                      class="modal fade"
-                      id="modal-card-1"
-                      tabindex="-1"
-                      aria-labelledby="modal-card-1-label"
-                      aria-hidden="true"
-                    >
-                      <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="modal-card-1-label">
-                              Detalle Card 1
-                            </h5>
-                            <button
-                              type="button"
-                              class="close"
-                              data-dismiss="modal"
-                              aria-label="Close"
-                            >
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            <div class="row">
-                              <div class="col-md-4">
-                                <img
-                                  src="assets/img/imagen01.jpg"
-                                  class="img-fluid"
-                                  alt="Detalle card 1"
-                                />
-                              </div>
-                              <div class="col-md-8">
-                                <p>
-                                  <strong>La ciudad de París</strong>, dentro de
-                                  sus estrechos límites administrativos, tiene
-                                  una población de 2 273 305 habitantes en
-                                  2015.2 Sin embargo, en el siglo xx, el área
-                                  metropolitana de París se expandió más allá de
-                                  los límites del municipio de París, y es hoy
-                                  en día, con una población de 12 405 426
-                                  habitantes en 2013, la segunda área
-                                  metropolitana del continente europeo (después
-                                  de Londres) y la 28ª del mundo.4 La región de
-                                  París es junto con la de Londres, uno de los
-                                  núcleos económicos más importantes de Europa.<br /><br />6
-                                  Con 607 000 millones de euros (845 000
-                                  millones de dólares), produjo más de una
-                                  cuarta parte del producto interior bruto (PIB)
-                                  de Francia en 2011.<br /><br />7 La Défense es el
-                                  principal barrio de negocios de Europa,8
-                                  alberga la sede social de casi la mitad de las
-                                  grandes empresas francesas, así como la sede
-                                  de veinte de las cien más grandes del mundo.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="modal-footer">
-                            <button
-                              type="button"
-                              class="btn btn-primary"
-                              data-dismiss="modal"
-                            >
-                              Cerrar
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Fin card con modal -->
-              </div>
-              <div class="col-md-4">
-                <div class="card mb-4">
-                  <img
-                    src="assets/img/imagen03.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card mb-4">
-                  <img
-                    src="assets/img/imagen03.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card mb-4">
-                  <img
-                    src="assets/img/imagen03.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
+               <div class="col">
+                  <nav class="navbar navbar-expand-lg navbar-dark">
+                     <a class="navbar-brand" href="#">
+                     <img
+                        src="assets/img/logo.png"
+                        width="30"
+                        height="30"
+                        class="d-inline-block align-top"
+                        alt="Logo Claudio.dcv"
+                        />
+                     Claudio.dcv
+                     </a>
+                     <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                        >
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                           <li class="nav-item active">
+                              <a class="nav-link" href="#carousel-inicial">
+                              Inicio <span class="sr-only">(current)</span>
+                              </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#sec-trabajos">Trabajos</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#sec-contacto">Contacto</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#sec-informacion">Información</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </nav>
+               </div>
             </div>
-          </section>
-          <section id="sec-contacto">
-            <h2 class="text-rowdies">Contacto</h2>
-          </section>
-          <section id="sec-informacion">
-            <h2 class="text-rowdies">Información</h2>
-          </section>
-        </div>
+         </div>
+      </header>
+      <!-- End Header -->
+      <!-- Carousel -->
+      <div id="carousel-inicial" class="carousel slide" data-ride="carousel">
+         <ol class="carousel-indicators">
+            <li
+               data-target="#carousel-inicial"
+               data-slide-to="0"
+               class="active"
+               ></li>
+            <li data-target="#carousel-inicial" data-slide-to="1"></li>
+            <li data-target="#carousel-inicial" data-slide-to="2"></li>
+         </ol>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img src="assets/img/imagen01.jpg" class="d-block w-100" alt="..." />
+               <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img src="assets/img/imagen02.jpg" class="d-block w-100" alt="..." />
+               <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img src="assets/img/imagen03.jpg" class="d-block w-100" alt="..." />
+               <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+               </div>
+            </div>
+         </div>
+         <button
+            class="carousel-control-prev"
+            type="button"
+            data-target="#carousel-inicial"
+            data-slide="prev"
+            >
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+         </button>
+         <button
+            class="carousel-control-next"
+            type="button"
+            data-target="#carousel-inicial"
+            data-slide="next"
+            >
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+         </button>
       </div>
-    </main>
-    <!-- Scripts -->
-    <script
-      src="https://kit.fontawesome.com/d83e191353.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="assets/js/jquery.slim.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/script.js"></script>
-  </body>
+      <!-- End Carousel -->
+      <main>
+         <div class="container">
+            <div class="row">
+               <div class="col">
+                  <section id="sec-trabajos" class="py-4">
+                     <h2 class="text-center mb-4 text-rowdies">Trabajos</h2>
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="card mb-4">
+                              <img
+                                 src="assets/img/imagen03.jpg"
+                                 class="card-img-top"
+                                 alt="..."
+                                 />
+                              <div class="card-body">
+                                 <h5 class="card-title">Card title</h5>
+                                 <p class="card-text">
+                                    Some quick example text to build on the card title and
+                                    make up the bulk of the card's content.
+                                 </p>
+                                 <a href="#" class="btn btn-primary">Go somewhere</a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="card mb-4">
+                              <img
+                                 src="assets/img/imagen03.jpg"
+                                 class="card-img-top"
+                                 alt="..."
+                                 />
+                              <div class="card-body">
+                                 <h5 class="card-title">Card title</h5>
+                                 <p class="card-text">
+                                    Some quick example text to build on the card title and
+                                    make up the bulk of the card's content.
+                                 </p>
+                                 <button
+                                    class="btn btn-danger"
+                                    data-toggle="popover"
+                                    title="Popover title"
+                                    data-content="And here's some amazing content. It's very engaging. Right?"
+                                    >
+                                 Boton con popover
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <!-- Card con modal -->
+                           <div class="card mb-4">
+                              <img
+                                 src="assets/img/imagen01.jpg"
+                                 class="card-img-top"
+                                 alt="..."
+                                 />
+                              <div class="card-body">
+                                 <h5 class="card-title">Card title</h5>
+                                 <p class="card-text">
+                                    Some quick example text to build on the card title and
+                                    make up the bulk of the card's content.
+                                 </p>
+                                 <!-- Button trigger modal -->
+                                 <button
+                                    type="button"
+                                    class="btn btn-primary"
+                                    data-toggle="modal"
+                                    data-target="#modal-card-1"
+                                    >
+                                 Ver detalle
+                                 </button>
+                                 <!-- Modal -->
+                                 <div
+                                    class="modal fade"
+                                    id="modal-card-1"
+                                    tabindex="-1"
+                                    aria-labelledby="modal-card-1-label"
+                                    aria-hidden="true"
+                                    >
+                                    <div class="modal-dialog modal-lg">
+                                       <div class="modal-content">
+                                          <div class="modal-header">
+                                             <h5 class="modal-title" id="modal-card-1-label">
+                                                Detalle Card 1
+                                             </h5>
+                                             <button
+                                                type="button"
+                                                class="close"
+                                                data-dismiss="modal"
+                                                aria-label="Close"
+                                                >
+                                             <span aria-hidden="true">&times;</span>
+                                             </button>
+                                          </div>
+                                          <div class="modal-body">
+                                             <div class="row">
+                                                <div class="col-md-4">
+                                                   <img
+                                                      src="assets/img/imagen01.jpg"
+                                                      class="img-fluid"
+                                                      alt="Detalle card 1"
+                                                      />
+                                                </div>
+                                                <div class="col-md-8">
+                                                   <p>
+                                                      <strong>La ciudad de París</strong>, dentro de
+                                                      sus estrechos límites administrativos, tiene
+                                                      una población de 2 273 305 habitantes en
+                                                      2015.2 Sin embargo, en el siglo xx, el área
+                                                      metropolitana de París se expandió más allá de
+                                                      los límites del municipio de París, y es hoy
+                                                      en día, con una población de 12 405 426
+                                                      habitantes en 2013, la segunda área
+                                                      metropolitana del continente europeo (después
+                                                      de Londres) y la 28ª del mundo.4 La región de
+                                                      París es junto con la de Londres, uno de los
+                                                      núcleos económicos más importantes de
+                                                      Europa.<br /><br />6 Con 607 000 millones de
+                                                      euros (845 000 millones de dólares), produjo
+                                                      más de una cuarta parte del producto interior
+                                                      bruto (PIB) de Francia en 2011.<br /><br />7
+                                                      La Défense es el principal barrio de negocios
+                                                      de Europa,8 alberga la sede social de casi la
+                                                      mitad de las grandes empresas francesas, así
+                                                      como la sede de veinte de las cien más grandes
+                                                      del mundo.
+                                                   </p>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="modal-footer">
+                                             <button
+                                                type="button"
+                                                class="btn btn-primary"
+                                                data-dismiss="modal"
+                                                >
+                                             Cerrar
+                                             </button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- Fin card con modal -->
+                        </div>
+                        <div class="col-md-4">
+                           <div class="card mb-4">
+                              <img
+                                 src="assets/img/imagen03.jpg"
+                                 class="card-img-top"
+                                 alt="..."
+                                 />
+                              <div class="card-body">
+                                 <h5 class="card-title">Card title</h5>
+                                 <p class="card-text">
+                                    Some quick example text to build on the card title and
+                                    make up the bulk of the card's content.
+                                 </p>
+                                 <a href="#" class="btn btn-primary">Go somewhere</a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="card mb-4">
+                              <img
+                                 src="assets/img/imagen03.jpg"
+                                 class="card-img-top"
+                                 alt="..."
+                                 />
+                              <div class="card-body">
+                                 <h5 class="card-title">Card title</h5>
+                                 <p class="card-text">
+                                    Some quick example text to build on the card title and
+                                    make up the bulk of the card's content.
+                                 </p>
+                                 <a href="#" class="btn btn-primary">Go somewhere</a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="card mb-4">
+                              <img
+                                 src="assets/img/imagen03.jpg"
+                                 class="card-img-top"
+                                 alt="..."
+                                 />
+                              <div class="card-body">
+                                 <h5 class="card-title">Card title</h5>
+                                 <p class="card-text">
+                                    Some quick example text to build on the card title and
+                                    make up the bulk of the card's content.
+                                 </p>
+                                 <a href="#" class="btn btn-primary">Go somewhere</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </section>
+               </div>
+            </div>
+         </div>
+         <section id="sec-contacto">
+            <h2 class="text-rowdies">Contacto</h2>
+         </section>
+         <section id="sec-informacion">
+            <h2 class="text-rowdies">Información</h2>
+         </section>
+      </main>
+      <footer class="bg-dark py-4 text-warning text-center">
+         <div class="container">
+            <div class="row">
+               <div class="col">
+                  <h4>Siguenos en:</h4>
+               </div>
+            </div>
+            <div class="col-12">
+               <a href="https://www.facebook.com/" class="mr-3">
+               <i class="fab fa-facebook-square fa-2x text-white"></i>
+               </a>
+               <a href="https://www.instagram.com/">
+               <i class="fab fa-instagram fa-2x text-white"></i>
+               </a>
+               <a href="https://twitter.com/" class="ml-3">
+               <i class="fab fa-twitter-square fa-2x text-white"></i>
+               </a>
+            </div>
+         </div>
+         </div>
+      </footer>
+      <!-- Scripts -->
+      <script
+         src="https://kit.fontawesome.com/d83e191353.js"
+         crossorigin="anonymous"
+         ></script>
+      <script src="assets/js/jquery.slim.min.js"></script>
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/script.js"></script>
+   </body>
 </html>

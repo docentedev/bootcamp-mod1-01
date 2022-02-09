@@ -12,4 +12,6 @@ $(document).ready(function () {
         }
     });
     // End Smooth Scroll
+    // Activacion de Pop Over
+    $('[data-toggle="popover"]').popover()
 });
