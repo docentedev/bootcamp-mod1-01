@@ -1,32 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desafio Ejemplo</title>
     <!--- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
     <!-- Header -->
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1>Desafio Ejemplo</h1>
-                    <i class="fa-solid fa-angle-up"></i>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="assets/img/logo.png"
+                  width="30"
+                  height="30"
+                  class="d-inline-block align-top"
+                  alt="Logo Claudio.dcv"
+                />
+                Claudio.dcv
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#sec-inicio">
+                      Inicio <span class="sr-only">(current)</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sec-trabajos">Trabajos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sec-contacto">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sec-informacion">Información</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
         </div>
+      </div>
     </header>
     <!-- End Header -->
-
+    <main class="container">
+      <div class="row">
+        <div class="col">
+          <section id="sec-inicio">
+            <h2>Inicio</h2>
+          </section>
+          <section id="sec-trabajos">
+            <h2>Trabajos</h2>
+          </section>
+          <section id="sec-contacto">
+            <h2>Contacto</h2>
+          </section>
+          <section id="sec-informacion">
+            <h2>Información</h2>
+          </section>
+        </div>
+      </div>
+    </main>
     <!-- Scripts -->
-    <script src="https://kit.fontawesome.com/d83e191353.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/d83e191353.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="assets/js/jquery.slim.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
